@@ -1,4 +1,0 @@
-".\Objects\STARTUP.obj",
-".\Objects\LED_outputs.obj" 
-TO ".\Objects\IO_ports" 
-PRINT(".\Listings\IO_ports.m51")

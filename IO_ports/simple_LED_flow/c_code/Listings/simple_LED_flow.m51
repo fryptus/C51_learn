@@ -1,9 +1,9 @@
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    01/17/2024  19:31:46  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    01/20/2024  18:29:40  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
-D:\KEILC51\KEIL C51 V957\KEIL\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\LED_outputs.obj TO .\Objects\IO_ports PR
->> INT (.\Listings\IO_ports.m51)
+D:\KEILC51\KEIL C51 V957\KEIL\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\simple_LED_flow.obj TO .\Objects\simple_
+>> LED_flow PRINT (.\Listings\simple_LED_flow.m51)
 
 
 MEMORY MODEL: SMALL
@@ -11,10 +11,10 @@ MEMORY MODEL: SMALL
 
 INPUT MODULES INCLUDED:
   .\Objects\STARTUP.obj (?C_STARTUP)
-  .\Objects\LED_outputs.obj (LED_OUTPUTS)
+  .\Objects\simple_LED_flow.obj (SIMPLE_LED_FLOW)
 
 
-LINK MAP OF MODULE:  .\Objects\IO_ports (?C_STARTUP)
+LINK MAP OF MODULE:  .\Objects\simple_LED_flow (?C_STARTUP)
 
 
             TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
@@ -26,27 +26,27 @@ LINK MAP OF MODULE:  .\Objects\IO_ports (?C_STARTUP)
 
             * * * * * * *   C O D E   M E M O R Y   * * * * * * *
             CODE    0000H     0003H     ABSOLUTE     
-            CODE    0003H     003DH     UNIT         ?PR?MAIN?LED_OUTPUTS
-            CODE    0040H     001AH     UNIT         ?PR?_DELAY?LED_OUTPUTS
+            CODE    0003H     003DH     UNIT         ?PR?MAIN?SIMPLE_LED_FLOW
+            CODE    0040H     001AH     UNIT         ?PR?_DELAY?SIMPLE_LED_FLOW
             CODE    005AH     000CH     UNIT         ?C_C51STARTUP
 
 
 
-OVERLAY MAP OF MODULE:   .\Objects\IO_ports (?C_STARTUP)
+OVERLAY MAP OF MODULE:   .\Objects\simple_LED_flow (?C_STARTUP)
 
 
 SEGMENT
   +--> CALLED SEGMENT
 ---------------------
 ?C_C51STARTUP
-  +--> ?PR?MAIN?LED_OUTPUTS
+  +--> ?PR?MAIN?SIMPLE_LED_FLOW
 
-?PR?MAIN?LED_OUTPUTS
-  +--> ?PR?_DELAY?LED_OUTPUTS
+?PR?MAIN?SIMPLE_LED_FLOW
+  +--> ?PR?_DELAY?SIMPLE_LED_FLOW
 
 
 
-SYMBOL TABLE OF MODULE:  .\Objects\IO_ports (?C_STARTUP)
+SYMBOL TABLE OF MODULE:  .\Objects\simple_LED_flow (?C_STARTUP)
 
   VALUE           TYPE          NAME
   ----------------------------------
@@ -59,7 +59,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\IO_ports (?C_STARTUP)
   D:00F0H         SYMBOL        B
   D:0083H         SYMBOL        DPH
   D:0082H         SYMBOL        DPL
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  01/17/2024  19:31:46  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  01/20/2024  18:29:40  PAGE 2
 
 
   N:0000H         SYMBOL        IBPSTACK
@@ -88,7 +88,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\IO_ports (?C_STARTUP)
   C:0063H         LINE#         196
   -------         ENDMOD        ?C_STARTUP
 
-  -------         MODULE        LED_OUTPUTS
+  -------         MODULE        SIMPLE_LED_FLOW
   C:0000H         SYMBOL        _ICE_DUMMY_
   D:00A0H         PUBLIC        P2
   B:00A0H.0       PUBLIC        LED1
@@ -119,7 +119,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\IO_ports (?C_STARTUP)
   -------         PROC          MAIN
   C:0003H         LINE#         19
   C:0003H         LINE#         20
-BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  01/17/2024  19:31:46  PAGE 3
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  01/20/2024  18:29:40  PAGE 3
 
 
   C:0006H         LINE#         21
@@ -133,7 +133,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\IO_ports (?C_STARTUP)
   C:0037H         LINE#         29
   C:003EH         LINE#         30
   -------         ENDPROC       MAIN
-  -------         ENDMOD        LED_OUTPUTS
+  -------         ENDMOD        SIMPLE_LED_FLOW
 
 Program Size: data=9.0 xdata=0 code=102
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

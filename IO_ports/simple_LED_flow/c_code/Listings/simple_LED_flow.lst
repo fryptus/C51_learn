@@ -1,10 +1,10 @@
-C51 COMPILER V9.57.0.0   LED_OUTPUTS                                                       01/17/2024 19:31:46 PAGE 1   
+C51 COMPILER V9.57.0.0   SIMPLE_LED_FLOW                                                   01/20/2024 18:29:40 PAGE 1   
 
 
-C51 COMPILER V9.57.0.0, COMPILATION OF MODULE LED_OUTPUTS
-OBJECT MODULE PLACED IN .\Objects\LED_outputs.obj
-COMPILER INVOKED BY: D:\KeilC51\Keil C51 v957\Keil\C51\BIN\C51.EXE LED_outputs.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEX
-                    -TEND PRINT(.\Listings\LED_outputs.lst) TABS(2) OBJECT(.\Objects\LED_outputs.obj)
+C51 COMPILER V9.57.0.0, COMPILATION OF MODULE SIMPLE_LED_FLOW
+OBJECT MODULE PLACED IN .\Objects\simple_LED_flow.obj
+COMPILER INVOKED BY: D:\KeilC51\Keil C51 v957\Keil\C51\BIN\C51.EXE simple_LED_flow.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJE
+                    -CTEXTEND PRINT(.\Listings\simple_LED_flow.lst) TABS(2) OBJECT(.\Objects\simple_LED_flow.obj)
 
 line level    source
 

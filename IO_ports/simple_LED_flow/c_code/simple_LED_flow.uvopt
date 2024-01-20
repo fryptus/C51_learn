@@ -199,8 +199,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\LED_outputs.c</PathWithFileName>
-      <FilenameWithoutPath>LED_outputs.c</FilenameWithoutPath>
+      <PathWithFileName>.\simple_LED_flow.c</PathWithFileName>
+      <FilenameWithoutPath>simple_LED_flow.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

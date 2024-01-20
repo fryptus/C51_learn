@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>IO_ports</OutputName>
+          <OutputName>simple_LED_flow</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -370,9 +370,9 @@
               <FilePath>.\STARTUP.A51</FilePath>
             </File>
             <File>
-              <FileName>LED_outputs.c</FileName>
+              <FileName>simple_LED_flow.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\LED_outputs.c</FilePath>
+              <FilePath>.\simple_LED_flow.c</FilePath>
             </File>
           </Files>
         </Group>
